@@ -1,10 +1,14 @@
 #  resources 
+
 ## UI-fromText
 ### SampleLayoutActivity
 sample layouts from text book
 ### ViewSampleActivity   
 sample views from text book
-## UI-APorter
+## LayoutProgramatically
+Sample code dynamic creation of a UI for your information
+## the below not converted to Kotlin, needs to be updated, old examples
+### UI-APorter
 UI examples from Alan Porter a lot of simple examples
 * UIAlertDialog
 * UIAutoComplete
@@ -24,6 +28,3 @@ UI examples from Alan Porter a lot of simple examples
 * UIToggleButton
 * UIViewPager
 * UIWebView
-
-## LayoutProgramatically
-Sample code dynamic creation of a UI for your information

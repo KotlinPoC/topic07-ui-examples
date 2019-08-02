@@ -1,13 +1,15 @@
 apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-android'
 
 android {
-    compileSdkVersion 22
-    buildToolsVersion "28.0.2"
+    compileSdkVersion 29
+    buildToolsVersion "29.0.0"
 
     defaultConfig {
         applicationId "ca.campbell.layoutprogrammatically"
-        minSdkVersion 17
-        targetSdkVersion 22
+        minSdkVersion 22
+        targetSdkVersion 29
     }
 
     buildTypes {
@@ -20,4 +22,8 @@ android {
 
 dependencies {
     implementation 'com.android.support:support-v4:22.2.1'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+}
+repositories {
+    mavenCentral()
 }
